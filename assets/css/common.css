@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+:root {
+	/*  */
+}
+
+.body_class {
+	/* Add styles like bg to body. */
+}
+
+.navbar-dark .container .navbar-nav .nav-link {
+	color: white;
+}

@@ -1,0 +1,36 @@
+main {
+	padding: 1rem;
+}
+
+main .card {
+	padding: 1rem;
+	margin-left: 300px;
+	margin-right: 300px;
+	background-color: aqua;
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1300px) {
+	main .card {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	main .card {
+		padding: 0.7rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	main {
+		padding: 0.6rem;
+	}
+
+	main .card {
+		padding: 0.5rem;
+		margin-left: 3px;
+		margin-right: 3px;
+	}
+}

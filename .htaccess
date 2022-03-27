@@ -1,0 +1,2 @@
+ErrorDocument 404 http://localhost/car_rental_agency/public/404notfound.html
+Options -Indexes

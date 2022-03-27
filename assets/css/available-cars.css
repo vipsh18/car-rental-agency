@@ -1,0 +1,40 @@
+main {
+	padding: 1rem;
+	margin-left: 250px;
+	margin-right: 250px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+main .card {
+	padding: 1rem;
+	min-width: 230px;
+	max-width: 320px;
+	background-color: aqua;
+}
+
+.renter_functionality {
+	padding: 0.5rem;
+}
+
+@media screen and (max-width: 1300px) {
+	main {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	main {
+		padding: 0.8rem;
+		margin-left: 2px;
+		margin-right: 2px;
+		gap: 10px;
+	}
+
+	main .card {
+		min-width: 100%;
+		max-width: 100%;
+	}
+}

@@ -1,0 +1,71 @@
+.header {
+	height: 92vh;
+	background-image: url('../img/car-2254670_1280.jpg');
+	background-size: cover;
+	background-position: top;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-textbox {
+	text-align: center;
+}
+
+.heading-primary {
+	text-transform: uppercase;
+	margin-bottom: 1.8rem;
+	line-height: 1.7;
+}
+
+.heading-primary-main {
+	display: block;
+	font-size: 3.8rem;
+	font-weight: 700;
+	letter-spacing: 0.8rem;
+}
+
+.heading-primary-sub {
+	display: block;
+	font-size: 2.3rem;
+	font-weight: 700;
+	letter-spacing: 0.5rem;
+}
+
+@media screen and (max-width: 1000px) {
+	.header {
+		height: 95vh;
+		background-image: url('../img/car-g13d0c2934_1920.jpg');
+	}
+
+	.heading-primary-main {
+		font-size: 3rem;
+		letter-spacing: 0.5rem;
+	}
+
+	.heading-primary-sub {
+		font-size: 1.8rem;
+		letter-spacing: 0.5rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.header {
+		background-image: url('../img/car-2254670_1280.jpg');
+	}
+
+	.heading-primary {
+		line-height: 1.5;
+	}
+
+	.heading-primary-main {
+		font-size: 2.2rem;
+		letter-spacing: 0.3rem;
+	}
+
+	.heading-primary-sub {
+		font-size: 1.5rem;
+		letter-spacing: 0.3rem;
+	}
+}
